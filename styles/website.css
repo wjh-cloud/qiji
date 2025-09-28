@@ -1,48 +1,30 @@
-/* 隐藏左侧目录导航栏 */
+/* 
 .book-summary {
     display: none !important;
 }
 
-/* 调整主内容区域，使其占满全宽 */
+
 .book-body {
     left: 0 !important;
     width: 100% !important;
 }
 
-/* 隐藏目录切换按钮 */
+
 .book-header .btn {
     display: none !important;
 }
 
-/* 调整页面布局 */
+
 .page-wrapper {
     margin-left: 0 !important;
 }
 
-/* 隐藏搜索框 */
 .book-search {
     display: none !important;
 }
 
-/* 隐藏分享按钮 */
+
 .book-header .sharing {
-    display: none !important;
-}
-
-/* 隐藏所有社交媒体分享按钮 */
-.sharing,
-.sharing a,
-.sharing .btn,
-[class*="sharing"],
-[class*="share"] {
-    display: none !important;
-}
-
-/* 隐藏搜索相关元素 */
-.search,
-.search-input,
-.search-box,
-[class*="search"] {
     display: none !important;
 }
 
@@ -78,4 +60,4 @@
 
 .book-body .page-wrapper .page-inner .page .page-inner .page-inner .page-inner .page-inner .page-inner .page-inner .page-inner {
     display: none !important;
-} 
+} */
