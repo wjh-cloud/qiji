@@ -1,0 +1,23 @@
+{
+  "name": "qiji",
+  "version": "1.0.0",
+  "description": "Qiji Privacy Policy Documentation",
+  "main": "index.js",
+  "scripts": {
+    "serve": "gitbook serve",
+    "build": "gitbook build",
+    "install": "gitbook install"
+  },
+  "author": "wjh-cloud",
+  "license": "ISC",
+  "dependencies": {
+    "gitbook-plugin-back-to-top-button": "^0.1.4",
+    "gitbook-plugin-code": "^0.1.0",
+    "gitbook-plugin-expandable-chapters": "^0.2.0",
+    "gitbook-plugin-search-pro": "^2.0.2",
+    "gitbook-plugin-theme-lou": "^1.1.0"
+  },
+  "devDependencies": {
+    "gitbook-cli": "^2.3.2"
+  }
+}
