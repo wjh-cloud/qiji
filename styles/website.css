@@ -1,50 +1,36 @@
-/* 隐藏左侧目录导航栏 */
+/* 
 .book-summary {
     display: none !important;
 }
 
-/* 调整主内容区域，使其占满全宽 */
+
 .book-body {
     left: 0 !important;
     width: 100% !important;
 }
 
-/* 隐藏目录切换按钮 */
+
 .book-header .btn {
     display: none !important;
 }
 
-/* 调整页面布局 */
+
 .page-wrapper {
     margin-left: 0 !important;
 }
 
-/* 隐藏搜索框（可选） */
 .book-search {
     display: none !important;
 }
 
-/* 隐藏分享按钮（可选） */
+
 .book-header .sharing {
     display: none !important;
 }
 
-/* 隐藏本篇章节区域 */
-.book-body .page-wrapper .page-inner .page {
-    /* 隐藏章节导航 */
-}
 
-/* 隐藏右侧的章节信息 */
-.book-body .page-wrapper .page-inner .page .page-inner {
-    /* 隐藏章节相关内容 */
-}
 
-/* 隐藏页面底部的章节信息 */
-.book-body .page-wrapper .page-inner .page .page-inner .page-inner {
-    /* 隐藏章节导航 */
-}
 
-/* 隐藏所有章节相关的元素 */
 .page-inner .page-inner,
 .page-inner .page-inner .page-inner,
 [class*="chapter"],
@@ -53,27 +39,25 @@
     display: none !important;
 }
 
-/* 隐藏页面底部的章节信息 */
 .book-body .page-wrapper .page-inner .page .page-inner .page-inner .page-inner {
     display: none !important;
 }
 
-/* 隐藏本篇章节标题和内容 */
+
 .book-body .page-wrapper .page-inner .page .page-inner .page-inner .page-inner .page-inner {
     display: none !important;
 }
 
-/* 隐藏所有包含"本篇章节"的元素 */
 .book-body .page-wrapper .page-inner .page .page-inner .page-inner .page-inner .page-inner .page-inner {
     display: none !important;
 }
 
-/* 隐藏页面右侧的章节信息区域 */
+
 .book-body .page-wrapper .page-inner .page .page-inner .page-inner .page-inner .page-inner .page-inner .page-inner {
     display: none !important;
 }
 
-/* 更精确地隐藏章节信息 */
+
 .book-body .page-wrapper .page-inner .page .page-inner .page-inner .page-inner .page-inner .page-inner .page-inner .page-inner {
     display: none !important;
-}
+} */
