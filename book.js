@@ -2,6 +2,7 @@ module.exports = {
   plugins: [
     "-lunr",
     "-search",
+    "-sharing"
     //"search-pro",
     //"code",
    // "theme-lou",
