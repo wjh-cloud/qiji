@@ -15,5 +15,14 @@ module.exports = {
     // "code": {
     //   "theme": "github"
     // }
+  },
+  // 隐藏目录导航栏
+  structure: {
+    readme: "README.md",
+    summary: "SUMMARY.md"
+  },
+  // 自定义样式隐藏目录
+  styles: {
+    website: "styles/website.css"
   }
 };

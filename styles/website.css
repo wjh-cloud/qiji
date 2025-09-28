@@ -1,0 +1,30 @@
+/* 隐藏左侧目录导航栏 */
+.book-summary {
+    display: none !important;
+}
+
+/* 调整主内容区域，使其占满全宽 */
+.book-body {
+    left: 0 !important;
+    width: 100% !important;
+}
+
+/* 隐藏目录切换按钮 */
+.book-header .btn {
+    display: none !important;
+}
+
+/* 调整页面布局 */
+.page-wrapper {
+    margin-left: 0 !important;
+}
+
+/* 隐藏搜索框（可选） */
+.book-search {
+    display: none !important;
+}
+
+/* 隐藏分享按钮（可选） */
+.book-header .sharing {
+    display: none !important;
+}
