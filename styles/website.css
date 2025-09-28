@@ -77,3 +77,16 @@
 .book-header a {
     display: none !important;
 }
+
+/* 隐藏页面底部导航箭头 */
+.navigation {
+    display: none !important;
+}
+
+/* 隐藏所有导航相关元素 */
+.navigation-next,
+.navigation-prev,
+.navigation-unique,
+[class*="navigation"] {
+    display: none !important;
+}
