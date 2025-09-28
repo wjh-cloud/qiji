@@ -28,3 +28,52 @@
 .book-header .sharing {
     display: none !important;
 }
+
+/* 隐藏本篇章节区域 */
+.book-body .page-wrapper .page-inner .page {
+    /* 隐藏章节导航 */
+}
+
+/* 隐藏右侧的章节信息 */
+.book-body .page-wrapper .page-inner .page .page-inner {
+    /* 隐藏章节相关内容 */
+}
+
+/* 隐藏页面底部的章节信息 */
+.book-body .page-wrapper .page-inner .page .page-inner .page-inner {
+    /* 隐藏章节导航 */
+}
+
+/* 隐藏所有章节相关的元素 */
+.page-inner .page-inner,
+.page-inner .page-inner .page-inner,
+[class*="chapter"],
+[class*="section"],
+[class*="toc"] {
+    display: none !important;
+}
+
+/* 隐藏页面底部的章节信息 */
+.book-body .page-wrapper .page-inner .page .page-inner .page-inner .page-inner {
+    display: none !important;
+}
+
+/* 隐藏本篇章节标题和内容 */
+.book-body .page-wrapper .page-inner .page .page-inner .page-inner .page-inner .page-inner {
+    display: none !important;
+}
+
+/* 隐藏所有包含"本篇章节"的元素 */
+.book-body .page-wrapper .page-inner .page .page-inner .page-inner .page-inner .page-inner .page-inner {
+    display: none !important;
+}
+
+/* 隐藏页面右侧的章节信息区域 */
+.book-body .page-wrapper .page-inner .page .page-inner .page-inner .page-inner .page-inner .page-inner .page-inner {
+    display: none !important;
+}
+
+/* 更精确地隐藏章节信息 */
+.book-body .page-wrapper .page-inner .page .page-inner .page-inner .page-inner .page-inner .page-inner .page-inner .page-inner {
+    display: none !important;
+}
