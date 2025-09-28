@@ -1,12 +1,12 @@
 module.exports = {
   plugins: [
     "-lunr",
-    "-search",
-    "search-pro",
+   // "-search",
+   // "search-pro",
     "code",
     "theme-lou",
     "expandable-chapters",
-    "back-to-top-button"
+    //"back-to-top-button"
   ],
   pluginsConfig: {
     // "search-pro": {
@@ -17,12 +17,12 @@ module.exports = {
     // }
   },
 
-  // structure: {
-  //   readme: "README.md",
-  //   summary: "SUMMARY.md"
-  // },
+  structure: {
+    readme: "README.md",
+    summary: "SUMMARY.md"
+  },
  
-  // styles: {
-  //   website: "styles/website.css"
-  // }
+  styles: {
+    website: "styles/website.css"
+  }
 };
