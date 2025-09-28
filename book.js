@@ -10,6 +10,9 @@ module.exports = {
     //"back-to-top-button"
   ],
   pluginsConfig: {
+    // "theme-default": {
+    //   "showLevel": false
+    // }
     // "search-pro": {
     //   "path": "search_plus_index.json"
     // },

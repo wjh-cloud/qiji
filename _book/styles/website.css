@@ -61,6 +61,19 @@
 .book-body .page-wrapper .page-inner .page .page-inner .page-inner .page-inner .page-inner .page-inner .page-inner .page-inner {
     display: none !important;
 } */
+/* 隐藏搜索框 */
 .book-search {
     display: none !important;
-  }
+}
+
+/* 隐藏页面顶部标题区域 */
+.book-header {
+    display: none !important;
+}
+
+/* 隐藏页面标题和导航 */
+.book-header h1,
+.book-header .fa,
+.book-header a {
+    display: none !important;
+}
